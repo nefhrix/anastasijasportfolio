@@ -264,3 +264,106 @@
     color: #000;
   }
   
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 2rem 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  .about {
+    padding: 0 1rem;
+    font-size: 0.95rem;
+  }
+
+  .projects {
+    padding: 0 1rem;
+    gap: 3rem;
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
+  .project-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .carousel-container {
+    max-width: 100%;
+  }
+
+  .thumbnails img {
+    width: 60px;
+    height: 40px;
+  }
+
+  .gallery-grid {
+    gap: 0.8rem;
+    padding: 0 0.5rem;
+  }
+
+  .gallery-grid img {
+    border-radius: 8px;
+  }
+
+  footer {
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  footer .socials a {
+    margin: 0 0.3rem;
+  }
+
+  #lightbox .close {
+    font-size: 2.5rem;
+    right: 20px;
+  }
+
+  #lightbox .prev,
+  #lightbox .next {
+    font-size: 2.5rem;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.7rem;
+  }
+
+  header p {
+    font-size: 0.85rem;
+  }
+
+  .about h2 {
+    font-size: 1.4rem;
+  }
+
+  .project-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .thumbnails img {
+    width: 50px;
+    height: 35px;
+  }
+
+  .all-work-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .gallery-grid {
+    gap: 0.5rem;
+  }
+}
